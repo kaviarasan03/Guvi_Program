@@ -1,7 +1,7 @@
 n=int(input())
 lit=[]
 for i in range(n):
-    ar=int(input())
-    lit.append(ar)
+  
+    lit.append(ar=int(input(end=" ")))
 max1=max(lit)
 print(max1)
