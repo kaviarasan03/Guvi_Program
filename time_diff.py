@@ -1,0 +1,5 @@
+m1,m2=map(int,input().split( ))
+n1,n2=map(int,input().split( ))
+sub1=abs(m1-n1)
+sub2=abs(m2-n2)
+print(sub1,sub2)
