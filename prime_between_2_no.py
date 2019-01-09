@@ -1,6 +1,7 @@
 
 
 num1,num2=map(int,input().split( ))
+li=[]
 for num in range(num1,num2):
   if num > 1:
 
@@ -10,7 +11,11 @@ for num in range(num1,num2):
 
              break
      else:
-         print(num,end=" ")
+         li.append(num)
+for i in range(len(li)-1):
+    print(li[i],end=" ")
+print(li[len(li)-1])         
+        
 
 
  
