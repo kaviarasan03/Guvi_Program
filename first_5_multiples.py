@@ -1,8 +1,8 @@
-n1=int(input())
+n=int(input())
 num=0
 li=[]
 for i in range(0,5):
-    num=num+n1
+    num=num+n
     li.append(num)
 for i in range(len(li)-1):
     print(li[i],end=" ")
