@@ -1,4 +1,4 @@
-num1,n2=map(int,input().split( ))
+n1,n2=map(int,input().split( ))
 li=list(map(int,input().split( )))
 c=0
 for i in li:
