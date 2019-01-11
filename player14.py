@@ -1,3 +1,4 @@
+n=int(input())
 st=input()
 s1=st[::-1]
 li=[]
