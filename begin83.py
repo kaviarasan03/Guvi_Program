@@ -7,10 +7,9 @@ if o=="+":
 elif o=="-":
 	print(n3-n2)
 elif o=="/":
-	print(n3/n2)
+	print(n3//n2)
 elif o=="*":
 	print(n3*n2)
 elif o=="%":
 	print(n3%n2)
-elif o=="//":
-	print(n3//n2)
+
