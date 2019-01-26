@@ -1,0 +1,5 @@
+n1=int(input())
+li=list(map(int,input().split( )))
+li.sort()
+li.remove(li[0])
+print(li[0])
