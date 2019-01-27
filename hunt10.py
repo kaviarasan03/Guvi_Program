@@ -7,7 +7,7 @@ for i in l2:
     if i in l1:
         c=c+1
 if c==len(l2):
-    print("Yes")
+    print("YES")
 else:
-    print("No")
+    print("NO")
     
