@@ -7,7 +7,7 @@ for i in range(len(li),0,-1):
     a=li[i-1]
     li1.append(a)
 if li==li1:
-    print("Yes")
+    print("YES")
 else:
     print("NO")
     
