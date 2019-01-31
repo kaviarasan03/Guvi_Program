@@ -5,7 +5,7 @@ li1=[]
 for i in li:
 	c=c*i
 	
-for i in range(0,n):
+for i in range(0,n1):
 	a=c//li[i]
 	li1.append(a)
 print(*li1)	
