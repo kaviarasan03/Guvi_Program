@@ -1,12 +1,9 @@
 n1=int(input())
 li=list(map(int,input().split( )))
-l2=[]
-for i in li:
+c=0
+for i in range(1,n1+1):
     a=n1*i
     if a in li:
-        l2.append(i)
-if len(l2)!=0:
-    print(*l2)
-else:
-    print("0")
-    
+        c=c+1
+print(c)        
+        
