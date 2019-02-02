@@ -25,5 +25,9 @@ else:
             b=min(li1)
             li2.append(b)
         
-    print(max(li2))    
+    f=max(li2)
+    if f<0:
+        print(min(li2))
+    else:
+        print(f)
 
