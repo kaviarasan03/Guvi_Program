@@ -5,4 +5,5 @@ if n2 in n1:
         if n2[0]==n1[j]:
             print(j)
             break
-    
+else:
+    print("-1")
